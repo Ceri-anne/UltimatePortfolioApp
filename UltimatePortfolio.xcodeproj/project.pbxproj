@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC71F2E12661311700822CE0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC71F2E02661311700822CE0 /* HomeView.swift */; };
+		CC71F2E3266131BE00822CE0 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC71F2E2266131BE00822CE0 /* ProjectsView.swift */; };
 		CC8D15B62657EB9F007AAAF0 /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8D15B52657EB9F007AAAF0 /* UltimatePortfolioApp.swift */; };
 		CC8D15B82657EB9F007AAAF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8D15B72657EB9F007AAAF0 /* ContentView.swift */; };
 		CC8D15BA2657EBA0007AAAF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8D15B92657EBA0007AAAF0 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC71F2E02661311700822CE0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CC71F2E2266131BE00822CE0 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		CC8D15B22657EB9F007AAAF0 /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC8D15B52657EB9F007AAAF0 /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		CC8D15B72657EB9F007AAAF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				CC8D15B52657EB9F007AAAF0 /* UltimatePortfolioApp.swift */,
+				CC71F2E02661311700822CE0 /* HomeView.swift */,
+				CC71F2E2266131BE00822CE0 /* ProjectsView.swift */,
 				CC8D15B72657EB9F007AAAF0 /* ContentView.swift */,
 				CC8D15C52657F163007AAAF0 /* Main.xcdatamodeld */,
 				CC8D15C92657F43E007AAAF0 /* DataController.swift */,
@@ -144,9 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC71F2E3266131BE00822CE0 /* ProjectsView.swift in Sources */,
 				CC8D15C72657F163007AAAF0 /* Main.xcdatamodeld in Sources */,
 				CC8D15CA2657F43E007AAAF0 /* DataController.swift in Sources */,
 				CC8D15B82657EB9F007AAAF0 /* ContentView.swift in Sources */,
+				CC71F2E12661311700822CE0 /* HomeView.swift in Sources */,
 				CC8D15B62657EB9F007AAAF0 /* UltimatePortfolioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
