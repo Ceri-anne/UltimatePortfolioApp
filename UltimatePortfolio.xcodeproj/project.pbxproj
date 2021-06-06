@@ -15,6 +15,8 @@
 		CC8D15BD2657EBA0007AAAF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8D15BC2657EBA0007AAAF0 /* Preview Assets.xcassets */; };
 		CC8D15C72657F163007AAAF0 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC8D15C52657F163007AAAF0 /* Main.xcdatamodeld */; };
 		CC8D15CA2657F43E007AAAF0 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8D15C92657F43E007AAAF0 /* DataController.swift */; };
+		CCCD341A266D20A9007910E1 /* Item_CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCD3419266D20A9007910E1 /* Item_CoreDataHelpers.swift */; };
+		CCCD341D266D2237007910E1 /* Project_CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCD341C266D2237007910E1 /* Project_CoreDataHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		CC8D15BE2657EBA0007AAAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC8D15C62657F163007AAAF0 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		CC8D15C92657F43E007AAAF0 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		CCCD3419266D20A9007910E1 /* Item_CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item_CoreDataHelpers.swift; sourceTree = "<group>"; };
+		CCCD341C266D2237007910E1 /* Project_CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_CoreDataHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				CC71F2E02661311700822CE0 /* HomeView.swift */,
 				CC71F2E2266131BE00822CE0 /* ProjectsView.swift */,
 				CC8D15B72657EB9F007AAAF0 /* ContentView.swift */,
+				CCCD3419266D20A9007910E1 /* Item_CoreDataHelpers.swift */,
+				CCCD341C266D2237007910E1 /* Project_CoreDataHelpers.swift */,
 				CC8D15C52657F163007AAAF0 /* Main.xcdatamodeld */,
 				CC8D15C92657F43E007AAAF0 /* DataController.swift */,
 				CC8D15B92657EBA0007AAAF0 /* Assets.xcassets */,
@@ -152,7 +158,9 @@
 			files = (
 				CC71F2E3266131BE00822CE0 /* ProjectsView.swift in Sources */,
 				CC8D15C72657F163007AAAF0 /* Main.xcdatamodeld in Sources */,
+				CCCD341A266D20A9007910E1 /* Item_CoreDataHelpers.swift in Sources */,
 				CC8D15CA2657F43E007AAAF0 /* DataController.swift in Sources */,
+				CCCD341D266D2237007910E1 /* Project_CoreDataHelpers.swift in Sources */,
 				CC8D15B82657EB9F007AAAF0 /* ContentView.swift in Sources */,
 				CC71F2E12661311700822CE0 /* HomeView.swift in Sources */,
 				CC8D15B62657EB9F007AAAF0 /* UltimatePortfolioApp.swift in Sources */,
